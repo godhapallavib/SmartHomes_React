@@ -1,0 +1,102 @@
+/* Left Navigation Bar - Sidebar */
+.sidebar {
+	float: left;
+	width: 225px;
+	font-size: 12px;
+}
+
+/* Left Navigation Bar - Decoration for Unordered List */
+
+.sidebar ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	line-height: normal;
+	border: none;
+}
+
+/* Left Navigation Bar - Decoration for List Items*/
+
+.sidebar li {
+	type : square;
+	margin-bottom: 20px;
+	padding: 10px 0px 10px 0px;
+	border-radius: 5px;
+	background: #D7DF01;
+	
+}
+
+/* Left Navigation Bar - Decoration for Consoles , Games , Tablets */
+
+.sidebar li ul {
+	margin: 0px 0px;
+	border: none;
+}
+
+/* Left Navigation Bar - Decoration for Various Product Lists */
+
+.sidebar li li {
+	margin: 0;
+	padding: 10px 0px;
+	border: none;
+	/* background: url(images/site/img06.jpg) repeat-x left top; */
+	
+}
+
+/* Left Navigation Bar - Decoration for List Bullets */ 
+
+.sidebar li li a {
+	padding: 0px 0px 0px 30px;
+	font-weight: normal;
+	border: none;
+	/* background: url(images/site/2.png) no-repeat 15px 4px; */
+}
+
+.sidebar li li a.viewmore {
+	background: none;
+	float: right;
+	margin-right: 20px;
+}
+
+/* Left Navigation Bar - Decoration for Hyperlink hover Tags ( Colour Changes) */ 
+
+.sidebar li li a:hover {
+	color: .666666;
+}
+
+/* Left Navigation Bar - Decoration for Paragraph Tags */
+
+.sidebar p {
+	margin: 0;
+	padding: 0px 14px;
+	line-height: 200%;
+}
+
+/* Left Navigation Bar - Decoration for Heading Tags */
+
+.sidebar h2 {
+	height: 32px;
+	margin: 0 0 10px 0px;
+	padding: 8px 0 10px 20px;
+	/* background: url(images/site/1.png) repeat-x left bottom; */
+	font-size: 24px;
+	font-weight: normal;
+	color: grey;
+	font-size: 24px;
+}
+
+/* Left Navigation Bar - Decoration for Heading Tags */
+
+.sidebar h3 {
+	margin-top: 5px;
+	text-align: center;
+}
+
+/* Left Navigation Bar - Decoration for Hyperlink Tags */ 
+
+.sidebar a {
+	text-align: left;
+	text-decoration: none;
+	font-weight: bold;
+	color: .000000;
+}
